@@ -145,10 +145,10 @@ set background=dark
 
 " 高亮显示当前行
 set cursorline
-highlight CursorLine cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
+highlight CursorLine cterm=NONE ctermbg=DarkBlue ctermfg=White guibg=DarkBlue guifg=White
 " 高亮显示当前列
 set cursorcolumn
-highlight CursorColumn cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
+highlight CursorColumn cterm=NONE ctermbg=DarkBlue ctermfg=White guibg=DarkBlue guifg=White
 
 " 光标遇到圆括号、方括号、大括号时，自动高亮对应的另一个圆括号、方括号和大括号
 set showmatch
