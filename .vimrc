@@ -77,7 +77,9 @@ set wildmenu
 set wildmode=longest:list,full
 
 " 字符编码
-set encoding=utf8
+set encoding=utf-8
+set fileencodings=utf-8,ucs-bom,cp936,gb18030,big5,euc-jp,euc-kr,latin1
+set helplang=cn
 
 " 默认使用 unix 文件风格的换行符 \n
 " Windows(MS-DOS): \r\n
@@ -238,5 +240,5 @@ call setline(5, "\# @Description :")
 normal G
 normal o
 normal o
-endfunc 
+endfunc
 autocmd bufnewfile *.py call SetTitle()
