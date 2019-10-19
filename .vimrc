@@ -78,6 +78,7 @@ set wildmode=longest:list,full
 
 " 字符编码
 set encoding=utf-8
+" 打开文件时，自动从下面的列表中选择正确的编码方案进行解码 [Decode]
 set fileencodings=utf-8,ucs-bom,cp936,gb18030,big5,euc-jp,euc-kr,latin1
 set helplang=cn
 
